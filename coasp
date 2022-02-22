@@ -1,0 +1,10 @@
+#include <iostream>
+#include "vector.h"
+using namespace std;
+int main()
+{
+	vector obiekt(1, 100, 10);
+	obiekt.wypisz();
+	obiekt.wstaw(25, 20);
+	obiekt.wypisz();
+}
